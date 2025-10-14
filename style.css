@@ -6,13 +6,29 @@
     margin: 0;
 }
 header{
+    padding: 5px;
+    gap: 5px;
+    display: flex;
+    align-items: left;
     background-color: #542a54;
     color: #dedede;
 }
 main {
+    padding: 0 50px;
     background-color: #9c3d5f;
 }       
 footer {
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     background-color: #542a54;
     color: #dedede;
+}
+.lg{
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
