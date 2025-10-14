@@ -14,7 +14,7 @@ header{
     color: #dedede;
 }
 main {
-    padding: 0 50px;
+    padding: 70px 50px;
     background-color: #9c3d5f;
 }       
 footer {
@@ -26,9 +26,13 @@ footer {
     background-color: #542a54;
     color: #dedede;
 }
-.lg{
+#lg{
     width: 100vw;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+#sbtt{
+    width: 100vw;
+    display: block;
 }
