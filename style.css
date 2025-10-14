@@ -1,11 +1,18 @@
+*{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
 header{
-    background-color: black;
-    color: white;
+    background-color: #542a54;
+    color: #dedede;
 }
 main {
-    background-color: rgb(38, 2, 2);
+    background-color: #9c3d5f;
 }       
 footer {
-    background-color: black;
-    color: white;
+    background-color: #542a54;
+    color: #dedede;
 }
