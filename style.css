@@ -17,7 +17,8 @@ main {
     background-color: #9c3d5f;
 }       
 footer {
-    padding: 50px;
+    padding: 50px 0;
+    gap: 8px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -33,4 +34,7 @@ footer {
 #sbtt{
     width: 100vw;
     display: block;
+}
+.credits{
+    padding-left: 25px;
 }
