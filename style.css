@@ -1,24 +1,11 @@
 *{
     flex-direction: column;
+    align-items: center;
     justify-content: center;
     padding: 0;
     margin: 0;
+    transition: all 0.5s;
 }
-body{
-    min-height: 100vh;
-}
-header{
-    padding: 5px;
-    gap: 5px;
-    display: flex;
-    align-items: left;
-    background-color: #542a54;
-    color: #dedede;
-}
-main {
-    padding: 70px 50px;
-    background-color: #9c3d5f;
-}       
 footer {
     padding: 50px 0;
     gap: 8px;
@@ -28,16 +15,55 @@ footer {
     background-color: #542a54;
     color: #dedede;
 }
-#lg{
-    width: 100vw;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-#sbtt{
-    width: 100vw;
-    display: block;
-}
 .credits{
     padding-left: 25px;
+}
+
+
+
+title{
+  display: none;
+}
+body{
+    width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+main{
+    display: flex;
+  flex-direction: column;
+  gap: 5px;
+  background-color: #000f2e;
+  width: 100%;
+  min-height: 100vh;
+}
+.card{
+  border-radius: 8px;
+  border: 2px solid #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 320px;
+  height: 180px;
+  background-color: #008060;
+  color: #dedede;
+}
+.card:hover{
+  box-shadow: 0  0 20px #888;
+}
+.back{
+  display: none;
+}
+.front{
+  display: block;
+}
+.cgg{
+  gap: 10px;
+  display: flex;
+  flex-direction: row;
+
 }
