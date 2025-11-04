@@ -134,7 +134,7 @@ main{
 
 
 .linha-vertical {
-            height: 100%;          
+            height: 100vw;          
             width: 2px;              
             background-color: #fff; 
             display: inline-block; 
