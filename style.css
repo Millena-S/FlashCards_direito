@@ -14,7 +14,7 @@ header{
     color: #dedede;
 }
 footer {
-    padding: 15px 0;
+    padding: 10px 0;
     display: flex;
     width: 100vw;
     background-color: #542a54;
@@ -31,7 +31,7 @@ footer {
     display: block;
 }
 .credits{
-    padding: 17px 25px;
+    padding: 22px 25px;
 
 }
 
