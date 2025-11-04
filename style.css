@@ -50,6 +50,7 @@ body{
   }
 main{
     display: flex;
+    flex-direction: row;
     background-color: #ab5068;
     width: 100%;
     min-height: 100vh;
@@ -133,9 +134,8 @@ main{
 
 
 .linha-vertical {
-            height: 100px;           /* Altura da linha */
-            width: 2px;              /* Espessura da linha */
-            background-color: black; /* Cor da linha */
-            display: inline-block;   /* Permite colocar ao lado de outros elementos */
-            margin: 0 10px;          /* Espaço ao redor (opcional) */
+            height: 100%;          
+            width: 2px;              
+            background-color: #fff; 
+            display: inline-block; 
         }
