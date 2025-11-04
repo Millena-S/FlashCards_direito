@@ -16,7 +16,7 @@ header{
 footer {
     padding: 5px 0;
     gap: 27px;
-    display: block;
+    display: flex;
     width: 100vw;
     background-color: #542a54;
     color: #dedede;
