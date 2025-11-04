@@ -138,4 +138,5 @@ main{
             width: 2px;              
             background-color: #fff; 
             display: inline-block; 
+            margin: 0 10px;
         }
