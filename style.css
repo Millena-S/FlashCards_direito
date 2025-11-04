@@ -15,7 +15,6 @@ header{
 }
 footer {
     padding: 5px 0;
-    gap: 27px;
     display: flex;
     width: 100vw;
     background-color: #542a54;
@@ -32,7 +31,8 @@ footer {
     display: block;
 }
 .credits{
-    padding-left: 25px;
+    padding: 27px 25px;
+    
 }
 
 
