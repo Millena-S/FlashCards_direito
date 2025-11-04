@@ -17,6 +17,7 @@ footer {
     padding: 50px 0;
     gap: 8px;
     display: block;
+    width: 100vw;
     background-color: #542a54;
     color: #dedede;
 }
